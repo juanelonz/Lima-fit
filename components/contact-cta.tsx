@@ -35,7 +35,7 @@ export function ContactCta() {
             >
               <a href="tel:+10000000000">
                 <Phone className="size-4" />
-                +1 (000) 000-0000
+                +54 (11) 3265-4520
               </a>
             </Button>
           </div>
