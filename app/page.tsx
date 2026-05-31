@@ -12,7 +12,7 @@ export default function Page() {
         <Hero />
         <Specs />
        <a 
-  href="https://wa.me +541132654520" 
+  href="https://wa.me541132654520" 
   target="_blank" 
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 bg-[#25D366] text-white font-bold py-2 px-4 rounded-full hover:bg-[#20ba5a] transition-colors"
