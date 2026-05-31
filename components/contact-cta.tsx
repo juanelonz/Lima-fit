@@ -41,7 +41,7 @@ export function ContactCta() {
           </div>
 
           <p className="mt-6 text-sm text-muted-foreground">
-            O visítanos en{" "}
+            O visítanos en Ig y Fb @{" "}
             <a
               href="https://lima.fit"
               className="font-medium text-foreground underline underline-offset-4"
