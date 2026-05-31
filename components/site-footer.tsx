@@ -7,7 +7,7 @@ export function SiteFooter() {
         <div>
           <Logo wordClassName="text-background" />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-background/60">
-            Reformers de Pilates premium, diseñados y fabricados en casa.
+            Reformers de Pilates, diseñados y fabricados en CABA para todo el pais.
           </p>
         </div>
 
