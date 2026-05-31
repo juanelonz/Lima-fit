@@ -10,7 +10,7 @@ export function Hero() {
         <div className="flex flex-col items-start">
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium tracking-wide text-muted-foreground">
             <LimaMark className="size-3.5 text-lime" />
-            Equipo de Pilates, diseñado con ingeniería
+            Equipo de Pilates con diseñado e ingeniería
           </span>
 
           <h1 className="mt-6 text-balance font-display text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
@@ -18,8 +18,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-md text-pretty text-base leading-relaxed text-muted-foreground">
-            lima diseña y fabrica reformers de Pilates premium: herrajes de
-            precisión, carros de deslizamiento silencioso y acabados que resisten
+            lima diseña y fabrica reformers de Pilates: perfiles de
+            precisión, carro de deslizamiento silencioso y acabados que resisten
             las exigencias diarias de un estudio.
           </p>
 
