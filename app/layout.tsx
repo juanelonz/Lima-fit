@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   description:
     'lima diseña y fabrica reformers de Pilates premium. Equipo de precisión construido para estudios y hogares.',
   generator: 'v0.app',
+  icons: {
+    icon: '/Logotipo_Limafit_--54.svg',
+  },
 }
 
 export default function RootLayout({
