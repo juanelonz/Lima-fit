@@ -2,9 +2,6 @@ import { cn } from "@/lib/utils"
 
 type LogoProps = {
   className?: string
-  markClassName?: string
-  wordClassName?: string
-  showWord?: boolean
 }
 
 /**
@@ -32,25 +29,15 @@ export function LimaMark({ className }: { className?: string }) {
   )
 }
 
-export function Logo({
-  className,
-  markClassName,
-  wordClassName,
-  showWord = true,
-}: LogoProps) {
+/**
+ * lima full brand logo image.
+ */
+export function Logo({ className }: LogoProps) {
   return (
-    <span className={cn("inline-flex items-center gap-2", className)}>
-      <LimaMark className={cn("text-lime", markClassName)} />
-      {showWord && (
-        <span
-          className={cn(
-            "font-display text-2xl font-semibold lowercase tracking-tight text-foreground",
-            wordClassName,
-          )}
-        >
-          lima
-        </span>
-      )}
-    </span>
+    <img
+      src="/Logotipo_Limafit_--15.svg"
+      alt="lima"
+      className={cn("h-7 w-auto", className)}
+    />
   )
 }
