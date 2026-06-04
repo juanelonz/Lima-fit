@@ -2,6 +2,8 @@ import { cn } from "@/lib/utils"
 
 type LogoProps = {
   className?: string
+  src?: string
+  alt?: string
 }
 
 /**
@@ -32,11 +34,15 @@ export function LimaMark({ className }: { className?: string }) {
 /**
  * lima full brand logo image.
  */
-export function Logo({ className }: LogoProps) {
+export function Logo({
+  className,
+  src = "/Logotipo_Limafit_--15.svg",
+  alt = "lima",
+}: LogoProps) {
   return (
     <img
-      src="/Logotipo_Limafit_--15.svg"
-      alt="lima"
+      src={src}
+      alt={alt}
       className={cn("h-30 w-auto", className)}
     />
   )
