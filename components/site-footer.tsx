@@ -6,7 +6,7 @@ export function SiteFooter() {
     <footer className="border-t border-border bg-foreground text-background">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-6 md:flex-row md:items-center md:justify-between">
         <div>
-          <Logo src="/Logotipo_Limafit_--6.svg" className="h-36 w-auto" />
+          <Logo src="/Logotipo_Limafit_--6.svg" className="h-48 w-auto" />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-background/60">
             Reformers de Pilates, diseñados y fabricados en CABA para todo el pais.
           </p>
