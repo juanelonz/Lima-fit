@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Logo } from "@/components/logo"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Facebook, Instagram, Menu, X } from "lucide-react"
 
 const navLinks = [
   { label: "Especificaciones", href: "#specs" },
@@ -31,6 +31,27 @@ export function SiteHeader() {
             </a>
           ))}
         </nav>
+
+        <div className="hidden items-center gap-3 md:flex">
+          <a
+            href="https://www.facebook.com/limafitok"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook lima fit"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Facebook className="size-5" />
+          </a>
+          <a
+            href="https://www.instagram.com/limafitok"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram lima fit"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Instagram className="size-5" />
+          </a>
+        </div>
 
         <div className="hidden md:block">
           <Button
@@ -65,6 +86,26 @@ export function SiteHeader() {
                 {link.label}
               </a>
             ))}
+            <div className="mt-2 flex gap-3">
+              <a
+                href="https://www.facebook.com/limafitok"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook lima fit"
+                className="rounded-md p-2 text-muted-foreground transition-colors hover:text-foreground hover:bg-muted"
+              >
+                <Facebook className="size-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/limafitok"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram lima fit"
+                className="rounded-md p-2 text-muted-foreground transition-colors hover:text-foreground hover:bg-muted"
+              >
+                <Instagram className="size-5" />
+              </a>
+            </div>
             <Button
               asChild
               className="mt-2 bg-foreground text-background hover:bg-foreground/90"

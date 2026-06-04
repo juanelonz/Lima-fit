@@ -1,4 +1,5 @@
 import { Logo } from "@/components/logo"
+import { Facebook, Instagram } from "lucide-react"
 
 export function SiteFooter() {
   return (
@@ -11,12 +12,30 @@ export function SiteFooter() {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-x-10 gap-y-3 text-sm">
+        <div className="flex flex-wrap items-center gap-x-10 gap-y-3 text-sm">
           <a href="#specs" className="text-background/70 hover:text-background">
             Especificaciones
           </a>
           <a href="#contact" className="text-background/70 hover:text-background">
             Contacto
+          </a>
+          <a
+            href="https://www.facebook.com/limafitok"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook lima fit"
+            className="text-background/70 transition-colors hover:text-background"
+          >
+            <Facebook className="size-5" />
+          </a>
+          <a
+            href="https://www.instagram.com/limafitok"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram lima fit"
+            className="text-background/70 transition-colors hover:text-background"
+          >
+            <Instagram className="size-5" />
           </a>
         </div>
       </div>
