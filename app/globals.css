@@ -4,21 +4,21 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Lima brand palette: near-black #1D1D1B, lime #CBD84F, gray #575756 */
+  /* Lima brand palette: near-black #3C3C3B, lime #A2C617, gray #859249 */
   --background: oklch(1 0 0);
-  --foreground: oklch(0.21 0.004 106);
+  --foreground: #3C3C3B;
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.21 0.004 106);
+  --card-foreground: #3C3C3B;
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.21 0.004 106);
-  --primary: oklch(0.21 0.004 106);
+  --popover-foreground: #3C3C3B;
+  --primary: #3C3C3B;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.965 0.004 106);
-  --secondary-foreground: oklch(0.21 0.004 106);
+  --secondary-foreground: #3C3C3B;
   --muted: oklch(0.965 0.004 106);
-  --muted-foreground: oklch(0.45 0.004 106);
-  --accent: oklch(0.83 0.16 113);
-  --accent-foreground: oklch(0.21 0.004 106);
+  --muted-foreground: #859249;
+  --accent: #A2C617;
+  --accent-foreground: #3C3C3B;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(0.91 0.004 106);
@@ -76,8 +76,8 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-inter);
-  --font-display: var(--font-poppins);
+  --font-sans: var(--font-anek-latin);
+  --font-display: 'Bilmond', var(--font-anek-latin);
   --font-mono: var(--font-geist-mono);
   --color-lime: var(--accent);
   --color-background: var(--background);

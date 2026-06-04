@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter, Poppins, Geist_Mono } from 'next/font/google'
+import { Anek_Latin, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const poppins = Poppins({
+const anekLatin = Anek_Latin({
   subsets: ['latin'],
-  weight: ['500', '600', '700'],
-  variable: '--font-poppins',
+  weight: ['300'],
+  variable: '--font-anek-latin',
 })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
@@ -26,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`bg-background ${inter.variable} ${poppins.variable} ${geistMono.variable}`}
+      className={`bg-background ${anekLatin.variable} ${geistMono.variable}`}
     >
       <body className="font-sans antialiased">
         {children}
