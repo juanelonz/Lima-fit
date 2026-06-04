@@ -4,9 +4,9 @@ import { Facebook, Instagram } from "lucide-react"
 export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-foreground text-background">
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-8 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-6 md:flex-row md:items-center md:justify-between">
         <div>
-          <Logo src="/Logotipo_Limafit_--6.svg" className="h-40 w-auto" />
+          <Logo src="/Logotipo_Limafit_--6.svg" className="h-36 w-auto" />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-background/60">
             Reformers de Pilates, diseñados y fabricados en CABA para todo el pais.
           </p>
@@ -41,7 +41,7 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-background/10">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-3 text-sm text-background/50 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-2 text-sm text-background/50 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} lima. Todos los derechos reservados.</p>
           <p>Equipo de Pilates · lima.fit</p>
         </div>
