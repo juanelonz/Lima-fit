@@ -25,7 +25,7 @@ export function SiteHeader() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-[#3C3C3B] transition-colors hover:text-foreground"
             >
               {link.label}
             </a>
@@ -38,7 +38,7 @@ export function SiteHeader() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook lima fit"
-            className="text-muted-foreground transition-colors hover:text-foreground"
+            className="text-[#3C3C3B] transition-colors hover:text-foreground"
           >
             <Facebook className="size-5" />
           </a>
@@ -47,7 +47,7 @@ export function SiteHeader() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram lima fit"
-            className="text-muted-foreground transition-colors hover:text-foreground"
+            className="text-[#3C3C3B] transition-colors hover:text-foreground"
           >
             <Instagram className="size-5" />
           </a>
@@ -81,7 +81,7 @@ export function SiteHeader() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-md px-2 py-2 text-sm font-medium text-muted-foreground hover:bg-muted hover:text-foreground"
+                className="rounded-md px-2 py-2 text-sm font-medium text-[#3C3C3B] hover:bg-muted hover:text-foreground"
               >
                 {link.label}
               </a>
@@ -92,7 +92,7 @@ export function SiteHeader() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook lima fit"
-                className="rounded-md p-2 text-muted-foreground transition-colors hover:text-foreground hover:bg-muted"
+                className="rounded-md p-2 text-[#3C3C3B] transition-colors hover:text-foreground hover:bg-muted"
               >
                 <Facebook className="size-5" />
               </a>
@@ -101,7 +101,7 @@ export function SiteHeader() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram lima fit"
-                className="rounded-md p-2 text-muted-foreground transition-colors hover:text-foreground hover:bg-muted"
+                className="rounded-md p-2 text-[#3C3C3B] transition-colors hover:text-foreground hover:bg-muted"
               >
                 <Instagram className="size-5" />
               </a>
