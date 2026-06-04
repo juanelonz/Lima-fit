@@ -37,7 +37,7 @@ export function Logo({ className }: LogoProps) {
     <img
       src="/Logotipo_Limafit_--15.svg"
       alt="lima"
-      className={cn("h-10 w-auto", className)}
+      className={cn("h-30 w-auto", className)}
     />
   )
 }
