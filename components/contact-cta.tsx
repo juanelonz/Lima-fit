@@ -1,13 +1,12 @@
 import { Button } from "@/components/ui/button"
 import { Mail, Phone } from "lucide-react"
-import { LimaMark } from "@/components/logo"
 
 export function ContactCta() {
   return (
     <section id="contact" className="border-t border-border">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
         <div className="flex flex-col items-center text-center">
-          <LimaMark className="size-10 text-lime" />
+          <img src="/Logotipo_Limafit_--54.svg" alt="lima icon" className="size-12" />
           <h2 className="mt-6 max-w-2xl text-balance font-display text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             ¿Listo para equipar tu estudio con lima?
           </h2>
