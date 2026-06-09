@@ -8,7 +8,7 @@ export function SiteFooter() {
         <div>
           <Logo src="/Logotipo_Limafit_--6.svg" className="h-48 w-auto" />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-background/60">
-            Reformers de Pilates, diseñados y fabricados en CABA para todo el pais.
+            Reformers de Pilates, diseñados y fabricados en CABA para todo el país.
           </p>
         </div>
 

@@ -1,12 +1,12 @@
 const specs = [
-  { label: "Estructura", value: "Aluminio con recubrimiento en polvo" },
-  { label: "Carro", value: "Contrachapado de arce, sellado marino" },
+  { label: "Estructura", value: "Acero al carbono con recubrimiento electrostático" },
+  { label: "Carro", value: "Contrachapado de arce laqueado" },
   { label: "Tapicería", value: "Vinilo grado marino" },
-  { label: "Resortes", value: "5 tensiones graduadas" },
-  { label: "Barra de pies", value: "4 posiciones, con bloqueo" },
-  { label: "Rieles", value: "Anodizados, rodamientos sellados" },
+  { label: "Resortes", value: "5 resortes 2R;1AZ;1AM;1V" },
+  { label: "Barra de pies", value: "6 posiciones con bloqueo" },
+  { label: "Rieles", value: "Rodamientos sellados" },
   { label: "Peso máx. de usuario", value: "150 kg / 330 lb" },
-  { label: "Garantía", value: "5 años estructura, 2 años piezas" },
+  { label: "Garantía", value: "5 años estructura" },
 ]
 
 export function Specs() {

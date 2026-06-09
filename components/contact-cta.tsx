@@ -6,7 +6,7 @@ export function ContactCta() {
     <section id="contact" className="border-t border-border">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
         <div className="flex flex-col items-center text-center">
-          <img src="/Logotipo_Limafit_--54.svg" alt="lima icon" className="size-12" />
+          <img src="/Logotipo_Limafit_--54.svg" alt="Icono de lima" className="size-12" />
           <h2 className="mt-6 max-w-2xl text-balance font-display text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             ¿Listo para equipar tu estudio con lima?
           </h2>
@@ -40,7 +40,7 @@ export function ContactCta() {
           </div>
 
           <p className="mt-6 text-sm text-muted-foreground">
-            O visítanos en Ig y Fb @{" "}
+            O visítanos en IG y FB @{" "}
             <a
               href="https://lima.fit"
               className="font-medium text-foreground underline underline-offset-4"
