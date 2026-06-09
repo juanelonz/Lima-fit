@@ -48,9 +48,9 @@ export function Hero() {
         <div className="relative">
           <div className="absolute -left-5 -top-5 z-10 hidden rounded-xl bg-lime px-4 py-3 lg:block">
             <p className="font-display text-sm font-semibold leading-tight text-foreground">
-              Hecho a mano
+              Calidad en los
               <br />
-              en casa
+              detalles
             </p>
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-secondary">
