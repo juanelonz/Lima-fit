@@ -19,7 +19,7 @@ export default function Page() {
           className="fixed right-4 bottom-6 z-50 inline-flex h-16 w-16 items-center justify-center rounded-full shadow-xl shadow-slate-900/20 transition-opacity hover:opacity-95"
         >
           <img
-            src="/images/whatsApp.svg.webp"
+            src="/wat.png"
             alt="WhatsApp"
             className="h-12 w-12"
           />
