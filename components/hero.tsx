@@ -29,7 +29,7 @@ export function Hero() {
               size="lg"
               className="bg-foreground text-background hover:bg-foreground/90"
             >
-              <a href="#specs">
+              <a href="/specs">
                 Ver especificaciones
                 <ArrowRight className="size-4" />
               </a>
@@ -40,7 +40,7 @@ export function Hero() {
               variant="outline"
               className="border-foreground/15"
             >
-              <a href="#contact">Habla con nuestro equipo</a>
+              <a href="/contact">Habla con nuestro equipo</a>
             </Button>
           </div>
         </div>

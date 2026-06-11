@@ -13,10 +13,10 @@ export function SiteFooter() {
         </div>
 
         <div className="flex flex-wrap items-center gap-x-10 gap-y-3 text-sm">
-          <a href="#specs" className="text-background/70 hover:text-background">
+          <a href="/specs" className="text-background/70 hover:text-background">
             Especificaciones
           </a>
-          <a href="#contact" className="text-background/70 hover:text-background">
+          <a href="/contact" className="text-background/70 hover:text-background">
             Contacto
           </a>
           <a

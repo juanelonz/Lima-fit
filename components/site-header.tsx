@@ -16,7 +16,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <a href="#top" aria-label="Inicio lima">
+        <a href="/" aria-label="Inicio lima">
           <Logo />
         </a>
 
@@ -58,7 +58,7 @@ export function SiteHeader() {
             asChild
             className="bg-foreground text-background hover:bg-foreground/90"
           >
-            <a href="#contact">Solicitar cotización</a>
+            <a href="/contact">Solicitar cotización</a>
           </Button>
         </div>
 
@@ -110,7 +110,7 @@ export function SiteHeader() {
               asChild
               className="mt-2 bg-foreground text-background hover:bg-foreground/90"
             >
-              <a href="#contact" onClick={() => setOpen(false)}>
+              <a href="/contact" onClick={() => setOpen(false)}>
                 Solicitar cotización
               </a>
             </Button>
