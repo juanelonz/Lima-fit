@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
   <xsl:template match="/">
@@ -25,10 +25,10 @@
             </tr>
           </thead>
           <tbody>
-            <xsl:for-each select="/*/*">
+            <xsl:for-each select="sitemap:urlset/sitemap:url">
               <tr>
-                <td><a href="{@loc}"><xsl:value-of select="loc"/></a></td>
-                <td><xsl:value-of select="priority"/></td>
+                <td><a href="{sitemap:loc}"><xsl:value-of select="sitemap:loc"/></a></td>
+                <td><xsl:value-of select="sitemap:priority"/></td>
               </tr>
             </xsl:for-each>
           </tbody>
