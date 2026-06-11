@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Facebook, Instagram, Menu, X } from "lucide-react"
 
 const navLinks = [
-  { label: "Especificaciones", href: "#specs" },
-  { label: "Contacto", href: "#contact" },
+  { label: "Especificaciones", href: "/specs" },
+  { label: "Contacto", href: "/contact" },
 ]
 
 export function SiteHeader() {
