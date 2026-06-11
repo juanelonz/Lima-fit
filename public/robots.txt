@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow sitemap access
+User-agent: Googlebot
+Allow: /sitemap.xml
+Allow: /style.xsl
+Allow: /
+
 Sitemap: https://www.lima.fit/sitemap.xml
