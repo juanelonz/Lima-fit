@@ -12,9 +12,9 @@ const anekLatin = Anek_Latin({
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'lima fit - Pilates Equipment',
+  title: 'limafit - Equipos de pilates',
   description:
-    'lima diseña y fabrica reformers de Pilates premium. Equipo de precisión construido para estudios y hogares.',
+    'lima diseña y fabrica pilates reformers con ingenieria y diseño, construidos con presicion para un funcionamiento silencioso.',
   generator: 'v0.app',
   icons: {
     icon: '/Logotipo_Limafit_--54.svg',

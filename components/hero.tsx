@@ -14,13 +14,13 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 text-balance font-display text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Reformers hechos para rendir, construidos para durar.
+            Reformers de metal diseñados para rendir y construidos para durar.
           </h1>
 
           <p className="mt-6 max-w-md text-pretty text-base leading-relaxed text-muted-foreground">
-            lima diseña y fabrica reformers de Pilates: perfiles de
-            precisión, carro de deslizamiento silencioso y acabados que resisten
-            las exigencias diarias de un estudio.
+            lima diseña y fabrica pilates reformers con perfiles de presicion
+            para un funcionamiento silencioso y con acabados que resisten las
+            exigencias de un estudio
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -56,7 +56,7 @@ export function Hero() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-secondary">
             <Image
               src="/images/detail-shoulder.jpg"
-              alt="Detalle del shoulder rest acolchado y el brazo pivotante de un reformer lima"
+              alt="barra de pies con recubrimiento soft y 6 posiciones regulables"
               fill
               className="object-cover"
               priority
@@ -70,7 +70,7 @@ export function Hero() {
         <figure className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-border bg-secondary sm:aspect-[16/7]">
           <Image
             src="/images/reformer-profile.jpg"
-            alt="Perfil lateral completo de un reformer de Pilates lima con estructura blanca y carro negro"
+            alt="lima reformer completo con estructura blanca y carro negro"
             fill
             className="object-cover"
           />
