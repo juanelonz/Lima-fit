@@ -13,4 +13,8 @@
     <loc>https://www.lima.fit/specs</loc>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://www.lima.fit/bom</loc>
+    <priority>0.80</priority>
+  </url>
 </urlset>
