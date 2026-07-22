@@ -22,7 +22,7 @@ export default function BomPage() {
 
         <div className="min-h-[70vh] flex-1 overflow-hidden rounded-lg border bg-white shadow-sm">
           <object
-            data="/images/AS-RF1.A.svg"
+            data="/AS-RF1.A.svg"
             type="image/svg+xml"
             aria-label="Plano BOM AS-RF1.A"
             className="h-full min-h-[70vh] w-full"
@@ -30,7 +30,7 @@ export default function BomPage() {
             <p className="p-6 text-sm text-muted-foreground">
               No se pudo cargar el plano. Descargalo desde el enlace directo: {" "}
               <a
-                href="/images/AS-RF1.A.svg"
+                href="/AS-RF1.A.svg"
                 className="underline underline-offset-4"
               >
                 AS-RF1.A.svg
