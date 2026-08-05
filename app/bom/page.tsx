@@ -45,7 +45,7 @@ export default function BomPage() {
               Diagramas de armado
             </p>
             <h2 className="mt-2 text-2xl font-light tracking-tight sm:text-3xl">
-              PASO 1, 2 y 3
+              PASOS 1 a 9
             </h2>
             <div className="mt-6 space-y-6">
               {[
@@ -55,6 +55,9 @@ export default function BomPage() {
                 { label: "PASO 4", href: "/SVG%20Armado/PASO%204.svg" },
                 { label: "PASO 5", href: "/SVG%20Armado/PASO%205.svg" },
                 { label: "PASO 6", href: "/SVG%20Armado/PASO%206.svg" },
+                { label: "PASO 7", href: "/SVG%20Armado/PASO%207.svg" },
+                { label: "PASO 8", href: "/SVG%20Armado/PASO%208.svg" },
+                { label: "PASO 9", href: "/SVG%20Armado/PASO%209.svg" },
               ].map((item) => (
                 <div key={item.label} className="overflow-hidden rounded-lg border bg-slate-50 shadow-sm">
                   <div className="border-b bg-white px-4 py-3">
