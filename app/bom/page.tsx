@@ -22,7 +22,7 @@ export default function BomPage() {
 
         <div className="min-h-[70vh] flex-1 overflow-hidden rounded-lg border bg-white shadow-sm">
           <object
-            data="/AS-RF1.A.svg"
+            data="/SVG%20Armado/AS-RF1.A.svg"
             type="image/svg+xml"
             aria-label="Plano BOM AS-RF1.A"
             className="h-full min-h-[70vh] w-full"
@@ -30,7 +30,7 @@ export default function BomPage() {
             <p className="p-6 text-sm text-muted-foreground">
               No se pudo cargar el plano. Descargalo desde el enlace directo: {" "}
               <a
-                href="/AS-RF1.A.svg"
+                href="/SVG%20Armado/AS-RF1.A.svg"
                 className="underline underline-offset-4"
               >
                 AS-RF1.A.svg
@@ -38,6 +38,43 @@ export default function BomPage() {
             </p>
           </object>
         </div>
+
+        <section className="space-y-6">
+          <div className="rounded-lg border bg-white p-6 shadow-sm">
+            <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
+              Diagramas de armado
+            </p>
+            <h2 className="mt-2 text-2xl font-light tracking-tight sm:text-3xl">
+              PASO 1, 2 y 3
+            </h2>
+            <div className="mt-6 grid gap-6 lg:grid-cols-3">
+              {[
+                { label: "PASO 1", href: "/SVG%20Armado/PASO%201.svg" },
+                { label: "PASO 2", href: "/SVG%20Armado/PASO%202.svg" },
+                { label: "PASO 3", href: "/SVG%20Armado/PASO%203.svg" },
+              ].map((item) => (
+                <div key={item.label} className="overflow-hidden rounded-lg border bg-slate-50 shadow-sm">
+                  <div className="border-b bg-white px-4 py-3">
+                    <p className="font-medium text-slate-900">{item.label}</p>
+                  </div>
+                  <object
+                    data={item.href}
+                    type="image/svg+xml"
+                    aria-label={`Plano ${item.label}`}
+                    className="h-72 w-full"
+                  >
+                    <div className="p-4 text-sm text-muted-foreground">
+                      No se pudo cargar {item.label}. Descargalo desde {" "}
+                      <a href={item.href} className="underline underline-offset-4">
+                        {item.label}.svg
+                      </a>
+                    </div>
+                  </object>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
       <SiteFooter />
     </div>
