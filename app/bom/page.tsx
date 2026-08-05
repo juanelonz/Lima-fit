@@ -52,6 +52,9 @@ export default function BomPage() {
                 { label: "PASO 1", href: "/SVG%20Armado/PASO%201.svg" },
                 { label: "PASO 2", href: "/SVG%20Armado/PASO%202.svg" },
                 { label: "PASO 3", href: "/SVG%20Armado/PASO%203.svg" },
+                { label: "PASO 4", href: "/SVG%20Armado/PASO%204.svg" },
+                { label: "PASO 5", href: "/SVG%20Armado/PASO%205.svg" },
+                { label: "PASO 6", href: "/SVG%20Armado/PASO%206.svg" },
               ].map((item) => (
                 <div key={item.label} className="overflow-hidden rounded-lg border bg-slate-50 shadow-sm">
                   <div className="border-b bg-white px-4 py-3">
