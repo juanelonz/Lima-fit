@@ -49,7 +49,7 @@ export default function BomPage() {
             </h2>
             <div className="mt-6 space-y-6">
               {[
-                { label: "PASO 1", href: "/SVG%20Armado/PASO1.a.svg" },
+                { label: "PASO 1", href: "/SVG%20Armado/PASO1.A.svg" },
                 { label: "PASO 2", href: "/SVG%20Armado/PASO%202.svg" },
                 { label: "PASO 3", href: "/SVG%20Armado/PASO%203.svg" },
                 { label: "PASO 4", href: "/SVG%20Armado/PASO%204.svg" },
