@@ -49,7 +49,7 @@ export default function BomPage() {
             </h2>
             <div className="mt-6 space-y-6">
               {[
-                { label: "PASO 1", href: "/SVG%20Armado/PASO%201.svg" },
+                { label: "PASO 1", href: "/SVG%20Armado/PASO1.a.svg" },
                 { label: "PASO 2", href: "/SVG%20Armado/PASO%202.svg" },
                 { label: "PASO 3", href: "/SVG%20Armado/PASO%203.svg" },
                 { label: "PASO 4", href: "/SVG%20Armado/PASO%204.svg" },
@@ -70,7 +70,7 @@ export default function BomPage() {
                     data={item.href}
                     type="image/svg+xml"
                     aria-label={`Plano ${item.label}`}
-                    className="min-h-[60vh] w-full"
+                    className="min-h-[36vh] w-full sm:min-h-[50vh] md:min-h-[60vh]"
                   >
                     <div className="p-4 text-sm text-muted-foreground">
                       No se pudo cargar {item.label}. Descargalo desde {" "}
