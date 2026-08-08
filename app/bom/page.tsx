@@ -62,7 +62,7 @@ export default function BomPage() {
                 { label: "PASO 11", href: "/SVG%20Armado/PASO%2011.svg" },
                 { label: "FIN", href: "/SVG%20Armado/Fin.svg" },
               ].map((item) => (
-                <div key={item.label} className="overflow-hidden rounded-lg border bg-slate-50 shadow-sm">
+                <div key={item.label} className="overflow-hidden rounded-lg border bg-white shadow-sm">
                   <div className="border-b bg-white px-4 py-3">
                     <p className="font-medium text-slate-900">{item.label}</p>
                   </div>
@@ -70,7 +70,7 @@ export default function BomPage() {
                     data={item.href}
                     type="image/svg+xml"
                     aria-label={`Plano ${item.label}`}
-                    className="min-h-[36vh] w-full sm:min-h-[50vh] md:min-h-[60vh]"
+                    className="min-h-[36vh] w-full bg-white sm:min-h-[50vh] md:min-h-[60vh]"
                   >
                     <div className="p-4 text-sm text-muted-foreground">
                       No se pudo cargar {item.label}. Descargalo desde {" "}
